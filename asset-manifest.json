@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tsunderekermit.github.io/static/css/main.8a18c7c4.chunk.css",
-    "main.js": "/tsunderekermit.github.io/static/js/main.e49d10bd.chunk.js",
-    "main.js.map": "/tsunderekermit.github.io/static/js/main.e49d10bd.chunk.js.map",
-    "runtime-main.js": "/tsunderekermit.github.io/static/js/runtime-main.dc8cc14c.js",
-    "runtime-main.js.map": "/tsunderekermit.github.io/static/js/runtime-main.dc8cc14c.js.map",
-    "static/js/2.e9852cee.chunk.js": "/tsunderekermit.github.io/static/js/2.e9852cee.chunk.js",
-    "static/js/2.e9852cee.chunk.js.map": "/tsunderekermit.github.io/static/js/2.e9852cee.chunk.js.map",
-    "index.html": "/tsunderekermit.github.io/index.html",
-    "precache-manifest.82e561db2e17e43c462072b368d2ece9.js": "/tsunderekermit.github.io/precache-manifest.82e561db2e17e43c462072b368d2ece9.js",
-    "service-worker.js": "/tsunderekermit.github.io/service-worker.js",
-    "static/css/main.8a18c7c4.chunk.css.map": "/tsunderekermit.github.io/static/css/main.8a18c7c4.chunk.css.map",
-    "static/js/2.e9852cee.chunk.js.LICENSE.txt": "/tsunderekermit.github.io/static/js/2.e9852cee.chunk.js.LICENSE.txt"
+    "main.css": "/tsunderekermit.github.io/learning-react/static/css/main.8a18c7c4.chunk.css",
+    "main.js": "/tsunderekermit.github.io/learning-react/static/js/main.607e92f4.chunk.js",
+    "main.js.map": "/tsunderekermit.github.io/learning-react/static/js/main.607e92f4.chunk.js.map",
+    "runtime-main.js": "/tsunderekermit.github.io/learning-react/static/js/runtime-main.db8999fe.js",
+    "runtime-main.js.map": "/tsunderekermit.github.io/learning-react/static/js/runtime-main.db8999fe.js.map",
+    "static/js/2.e9852cee.chunk.js": "/tsunderekermit.github.io/learning-react/static/js/2.e9852cee.chunk.js",
+    "static/js/2.e9852cee.chunk.js.map": "/tsunderekermit.github.io/learning-react/static/js/2.e9852cee.chunk.js.map",
+    "index.html": "/tsunderekermit.github.io/learning-react/index.html",
+    "precache-manifest.9a0503b8dc0e8f36d87dfb6797a64ad2.js": "/tsunderekermit.github.io/learning-react/precache-manifest.9a0503b8dc0e8f36d87dfb6797a64ad2.js",
+    "service-worker.js": "/tsunderekermit.github.io/learning-react/service-worker.js",
+    "static/css/main.8a18c7c4.chunk.css.map": "/tsunderekermit.github.io/learning-react/static/css/main.8a18c7c4.chunk.css.map",
+    "static/js/2.e9852cee.chunk.js.LICENSE.txt": "/tsunderekermit.github.io/learning-react/static/js/2.e9852cee.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc8cc14c.js",
+    "static/js/runtime-main.db8999fe.js",
     "static/js/2.e9852cee.chunk.js",
     "static/css/main.8a18c7c4.chunk.css",
-    "static/js/main.e49d10bd.chunk.js"
+    "static/js/main.607e92f4.chunk.js"
   ]
 }
