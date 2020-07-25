@@ -2,7 +2,7 @@
   "name": "fucking-around-with-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "tsunderekermit.github.io",
+  "homepage": "tsunderekermit.github.io/learning-react",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
