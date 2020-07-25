@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tsunderekermit.github.io/learning-react/static/css/main.8a18c7c4.chunk.css",
-    "main.js": "/tsunderekermit.github.io/learning-react/static/js/main.0eb8dd2b.chunk.js",
-    "main.js.map": "/tsunderekermit.github.io/learning-react/static/js/main.0eb8dd2b.chunk.js.map",
-    "runtime-main.js": "/tsunderekermit.github.io/learning-react/static/js/runtime-main.3a54f4ae.js",
-    "runtime-main.js.map": "/tsunderekermit.github.io/learning-react/static/js/runtime-main.3a54f4ae.js.map",
-    "static/js/2.df599648.chunk.js": "/tsunderekermit.github.io/learning-react/static/js/2.df599648.chunk.js",
-    "static/js/2.df599648.chunk.js.map": "/tsunderekermit.github.io/learning-react/static/js/2.df599648.chunk.js.map",
-    "index.html": "/tsunderekermit.github.io/learning-react/index.html",
-    "precache-manifest.90de076bf3224e121afcd8182033b16d.js": "/tsunderekermit.github.io/learning-react/precache-manifest.90de076bf3224e121afcd8182033b16d.js",
-    "service-worker.js": "/tsunderekermit.github.io/learning-react/service-worker.js",
-    "static/css/main.8a18c7c4.chunk.css.map": "/tsunderekermit.github.io/learning-react/static/css/main.8a18c7c4.chunk.css.map",
-    "static/js/2.df599648.chunk.js.LICENSE.txt": "/tsunderekermit.github.io/learning-react/static/js/2.df599648.chunk.js.LICENSE.txt"
+    "main.css": "/learning-react/static/css/main.8a18c7c4.chunk.css",
+    "main.js": "/learning-react/static/js/main.0eb8dd2b.chunk.js",
+    "main.js.map": "/learning-react/static/js/main.0eb8dd2b.chunk.js.map",
+    "runtime-main.js": "/learning-react/static/js/runtime-main.5ef7ebab.js",
+    "runtime-main.js.map": "/learning-react/static/js/runtime-main.5ef7ebab.js.map",
+    "static/js/2.df599648.chunk.js": "/learning-react/static/js/2.df599648.chunk.js",
+    "static/js/2.df599648.chunk.js.map": "/learning-react/static/js/2.df599648.chunk.js.map",
+    "index.html": "/learning-react/index.html",
+    "precache-manifest.1b82bed6afe0fe651669c310bef7d07b.js": "/learning-react/precache-manifest.1b82bed6afe0fe651669c310bef7d07b.js",
+    "service-worker.js": "/learning-react/service-worker.js",
+    "static/css/main.8a18c7c4.chunk.css.map": "/learning-react/static/css/main.8a18c7c4.chunk.css.map",
+    "static/js/2.df599648.chunk.js.LICENSE.txt": "/learning-react/static/js/2.df599648.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3a54f4ae.js",
+    "static/js/runtime-main.5ef7ebab.js",
     "static/js/2.df599648.chunk.js",
     "static/css/main.8a18c7c4.chunk.css",
     "static/js/main.0eb8dd2b.chunk.js"
