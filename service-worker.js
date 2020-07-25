@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tsunderekermit.github.io/learning-react/precache-manifest.9a0503b8dc0e8f36d87dfb6797a64ad2.js"
+  "/tsunderekermit.github.io/learning-react/precache-manifest.90de076bf3224e121afcd8182033b16d.js"
 );
 
 self.addEventListener('message', (event) => {
