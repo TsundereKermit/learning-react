@@ -1,7 +1,7 @@
 {
   "name": "learning-react",
   "version": "0.1.0",
-  "homepage": "tsunderekermit.github.io/learning-react",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -10,6 +10,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
+  "homepage": "https://tsunderekermit.github.io/learning-react",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
