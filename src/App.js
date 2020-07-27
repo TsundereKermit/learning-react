@@ -1,33 +1,62 @@
 import React, {Component} from 'react';
-import Table from './Table';
-import Form from './Form';
+import Clock from './Clock';
+import Timer from './Timer';
+import TimerForm from './TimerForm';
 
 class App extends Component {
     
-    state = {
-        characters: [],
-    };
-
-    removeCharacter = (index) => {
-        const {characters} = this.state;
-
-        this.setState({
-            characters: characters.filter((character, i) => {
-                return i !== index;
-            }),
-        })
+    constructor(props) {
+        super(props);
+        this.state = {
+            hour: 0,
+            minute: 0,
+            second: 0, 
+        };
     }
 
-    handleSubmit = character => {
-        this.setState({characters: [...this.state.characters, character]});
+    timerSubmit = (hour, minute, second) => {
+        this.setState({hour: hour, minute: minute, second: second});
+    }
+
+    componentDidMount() {
+        this.timerID = setInterval(
+            () =>
+            this.tickdown(),
+            1000
+        );
+    }
+    
+    componentWillUnmount() {
+        clearInterval(this.timerID);
+    }
+    
+    tickdown() {
+        var second = this.state.second;
+        var minute = this.state.minute;
+        var hour = this.state.hour;
+        
+        if (second > 0) {
+            this.setState({second: second - 1});
+        } else if (minute > 0) {
+            this.setState({
+                minute: minute - 1,
+                second: 59,
+            });
+        } else if (hour > 0) {
+            this.setState({
+                hour: hour - 1,
+                minute: 59,
+                second: 59,
+            });
+        }
     }
     
     render() {
-        const {characters} = this.state;
         return (
             <div className="container">
-                <Table characterData={characters} removeCharacter={this.removeCharacter} />
-                <Form handleSubmit={this.handleSubmit}/>
+                <Clock />
+                <Timer hour={this.state.hour} minute={this.state.minute} second={this.state.second} />
+                <TimerForm timerSubmit={this.timerSubmit}/>
             </div>
         )
     }

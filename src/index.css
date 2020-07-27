@@ -833,6 +833,12 @@ a.accent-button:active {
   background: #1cb864;
 }
 
+.divider {
+  width: 5px;
+  height: auto;
+  display: inline-block;
+}
+
 .muted-button,
 a.muted-button {
   background: transparent;
