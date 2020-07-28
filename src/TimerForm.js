@@ -28,7 +28,7 @@ class TimerForm extends Component {
 
     resetTimer = () => {
         this.setState(this.initialState);
-        this.props.timerSubmit(this.state.hour, this.state.minute, this.state.second);
+        this.props.timerSubmit(0,0,0);
     }
 
     render() {

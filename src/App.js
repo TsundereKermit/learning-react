@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Clock from './Clock';
 import Timer from './Timer';
 import TimerForm from './TimerForm';
+import Error from './Error';
 
 class App extends Component {
     
@@ -11,11 +12,33 @@ class App extends Component {
             hour: 0,
             minute: 0,
             second: 0, 
+            err_reason: '',
         };
     }
 
     timerSubmit = (hour, minute, second) => {
-        this.setState({hour: hour, minute: minute, second: second});
+        if (hour < 0 || minute < 0 || second < 0) {
+            this.setState({
+                hour: 0,
+                minute: 0,
+                second: 0,
+                err_reason: "Due to special relativity, negative time is not accepted as of this moment.",
+            });
+        } else if (minute > 59 || second > 60) {
+            this.setState({
+                hour: 0,
+                minute: 0,
+                second: 0,
+                err_reason: "Becaused we're civilized, we use the international standard notation for time here.",
+            });
+        } else {
+            this.setState({
+                hour: hour, 
+                minute: minute, 
+                second: second, 
+                err_reason: "",
+            });
+        }
     }
 
     componentDidMount() {
@@ -56,6 +79,7 @@ class App extends Component {
             <div className="container">
                 <Clock />
                 <Timer hour={this.state.hour} minute={this.state.minute} second={this.state.second} />
+                <Error reason={this.state.err_reason} />
                 <TimerForm timerSubmit={this.timerSubmit}/>
             </div>
         )
