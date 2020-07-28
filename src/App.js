@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import Clock from './Clock';
-import Timer from './Timer';
-import TimerForm from './TimerForm';
-import Error from './Error';
+import Navbar from './Navbar';
+import AppControl from './AppControl';
 
 class App extends Component {
     
@@ -13,6 +11,7 @@ class App extends Component {
             minute: 0,
             second: 0, 
             err_reason: '',
+            element: '',
         };
     }
 
@@ -39,6 +38,10 @@ class App extends Component {
                 err_reason: "",
             });
         }
+    }
+
+    navSubmit = element => {
+        this.setState({element: element});
     }
 
     componentDidMount() {
@@ -76,12 +79,19 @@ class App extends Component {
     
     render() {
         return (
-            <div className="container">
-                <Clock />
-                <Timer hour={this.state.hour} minute={this.state.minute} second={this.state.second} />
-                <Error reason={this.state.err_reason} />
-                <TimerForm timerSubmit={this.timerSubmit}/>
-            </div>
+            <div>
+                <Navbar navSubmit={this.navSubmit} />
+                <div className="w-100 padding-15">
+                    <AppControl
+                        element={this.state.element}
+                        timerSubmit={this.timerSubmit}
+                        hour={this.state.hour}
+                        minute={this.state.minute}
+                        second={this.state.second}
+                        reason={this.state.err_reason}
+                    />
+                </div>
+            </div>  
         )
     }
 }

@@ -27,13 +27,11 @@ class Clock extends Component {
 
     render() {
         return (
-            <div>
-                <h2 className="mt-3">
-                    {this.state.date.toLocaleDateString() 
-                    + ' ' 
-                    + this.state.date.toLocaleTimeString()}
-                </h2>
-            </div>
+            <span className="navbar-text">
+                {this.state.date.toLocaleDateString()
+                + ' '
+                + this.state.date.toLocaleTimeString()}
+            </span>
         );
     }
 }
