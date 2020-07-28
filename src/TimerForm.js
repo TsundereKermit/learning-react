@@ -39,6 +39,7 @@ class TimerForm extends Component {
                 <label htmlFor="hour">Hours</label>
                 <input 
                     type="number"
+                    className="form-control mb-2"
                     name="hour"
                     id="hour"
                     value={hour} 
@@ -46,6 +47,7 @@ class TimerForm extends Component {
                 <label htmlFor="minute">Minutes</label>
                 <input 
                     type="number"
+                    className="form-control mb-2"
                     name="minute"
                     id="minute"
                     value={minute} 
@@ -53,19 +55,23 @@ class TimerForm extends Component {
                 <label htmlFor="second">Seconds</label>
                 <input 
                     type="number"
+                    className="form-control"
                     name="second"
                     id="second"
                     value={second} 
                     onChange={this.handleChange} />
+                <div className="divider-v"></div>
                 <div>
                     <input 
                         type="button"
+                        className="btn btn-primary"
                         value="Start timer"
                         form="timerForm"
                         onClick={this.submitTimerForm} />
-                    <div className="divider"></div>
+                    <div className="divider-h"></div>
                     <input 
                         type="button" 
+                        className="btn btn-secondary"
                         value="Reset"
                         onClick={this.resetTimer} />
                 </div>

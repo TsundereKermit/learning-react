@@ -17,7 +17,7 @@ class Timer extends Component {
         const {hour, minute, second} = this.props;
 
         return (
-            <h1>
+            <h1 className="mb-3">
                 {hour + " Hours " + 
                 minute + " Minutes " +
                 second + " Seconds"}
