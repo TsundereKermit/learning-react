@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/learning-react/static/css/main.6c216b6f.chunk.css",
-    "main.js": "/learning-react/static/js/main.f6df64c0.chunk.js",
-    "main.js.map": "/learning-react/static/js/main.f6df64c0.chunk.js.map",
+    "main.css": "/learning-react/static/css/main.8984060a.chunk.css",
+    "main.js": "/learning-react/static/js/main.cb6d7d21.chunk.js",
+    "main.js.map": "/learning-react/static/js/main.cb6d7d21.chunk.js.map",
     "runtime-main.js": "/learning-react/static/js/runtime-main.5ef7ebab.js",
     "runtime-main.js.map": "/learning-react/static/js/runtime-main.5ef7ebab.js.map",
     "static/js/2.e8627860.chunk.js": "/learning-react/static/js/2.e8627860.chunk.js",
     "static/js/2.e8627860.chunk.js.map": "/learning-react/static/js/2.e8627860.chunk.js.map",
     "index.html": "/learning-react/index.html",
-    "precache-manifest.db681bf5012157cdbc25bbe21b9a17e3.js": "/learning-react/precache-manifest.db681bf5012157cdbc25bbe21b9a17e3.js",
+    "precache-manifest.9aa1af02ba17157a67f8f4281c4de77e.js": "/learning-react/precache-manifest.9aa1af02ba17157a67f8f4281c4de77e.js",
     "service-worker.js": "/learning-react/service-worker.js",
-    "static/css/main.6c216b6f.chunk.css.map": "/learning-react/static/css/main.6c216b6f.chunk.css.map",
+    "static/css/main.8984060a.chunk.css.map": "/learning-react/static/css/main.8984060a.chunk.css.map",
     "static/js/2.e8627860.chunk.js.LICENSE.txt": "/learning-react/static/js/2.e8627860.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5ef7ebab.js",
     "static/js/2.e8627860.chunk.js",
-    "static/css/main.6c216b6f.chunk.css",
-    "static/js/main.f6df64c0.chunk.js"
+    "static/css/main.8984060a.chunk.css",
+    "static/js/main.cb6d7d21.chunk.js"
   ]
 }
