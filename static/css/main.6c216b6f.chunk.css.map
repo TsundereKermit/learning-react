@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,WACE,SAAU,CACV,WAAY,CACZ,oBACF,CAEA,WACE,UAAW,CACX,WACF","file":"main.6c216b6f.chunk.css","sourcesContent":[".divider-h {\n  width: 5px;\n  height: auto;\n  display: inline-block;\n}\n\n.divider-v {\n  width: auto;\n  height: 10px;\n}"]}
