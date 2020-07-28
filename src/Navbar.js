@@ -21,7 +21,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-white">
-                <a className="navbar-brand" href="https://github.com/TsundereKermit">TsundereKermit</a>
+                <a className="navbar-brand" href="https://github.com/TsundereKermit" target="_blank">TsundereKermit</a>
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
                         <a className="nav-link" href="#" onClick={this.homeSubmit}>Home</a>
