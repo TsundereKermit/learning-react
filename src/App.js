@@ -27,6 +27,7 @@ class App extends Component {
                 sfx: '',
                 timerStarted: false,
                 err_reason: "Due to special relativity, negative time is not accepted as of this moment.",
+                url: '',
             });
         } else if (minute > 59 || second > 60) {
             this.setState({
@@ -36,6 +37,17 @@ class App extends Component {
                 sfx: '',
                 timerStarted: false,
                 err_reason: "Becaused we're civilized, we use the international standard notation for time here.",
+                url: '',
+            });
+        } else if (hour === 0 && minute === 0 && second === 0) {
+            this.setState({
+                hour: 0,
+                minute: 0,
+                second: 0,
+                sfx: '',
+                timerStarted: false,
+                err_reason: "",
+                url: '',
             });
         } else {
             this.setState({
