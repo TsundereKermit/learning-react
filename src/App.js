@@ -62,6 +62,18 @@ class App extends Component {
         }
     }
 
+    reset = () => {
+        this.setState({
+            hour: 0,
+            minute: 0,
+            second: 0,
+            sfx: '',
+            timerStarted: false,
+            err_reason: "",
+            url: '',
+        })
+    }
+
     navSubmit = element => {
         this.setState({element: element});
     }
@@ -142,6 +154,7 @@ class App extends Component {
                     <AppControl
                         element={this.state.element}
                         timerSubmit={this.timerSubmit}
+                        reset={this.reset}
                         hour={this.state.hour}
                         minute={this.state.minute}
                         second={this.state.second}

@@ -15,7 +15,7 @@ class AppControl extends Component {
                 <div>
                     <Timer hour={this.props.hour} minute={this.props.minute} second={this.props.second} />
                     <Error reason={this.props.reason} />
-                    <TimerForm timerSubmit={this.props.timerSubmit}/>
+                    <TimerForm timerSubmit={this.props.timerSubmit} reset={this.props.reset} />
                 </div>
             );
         } else {

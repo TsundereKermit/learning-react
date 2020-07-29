@@ -31,7 +31,7 @@ class TimerForm extends Component {
 
     resetTimer = () => {
         this.setState(this.initialState);
-        this.props.timerSubmit(0,0,0);
+        this.props.reset();
     }
 
     sfxChange = event => {
