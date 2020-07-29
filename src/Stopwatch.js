@@ -39,6 +39,11 @@ class Stopwatch extends Component {
         }
     }
 
+    pauseStopwatch = () => {
+        clearInterval(this.stopwatchID);
+        this.setState({timerStarted: false});
+    }
+
     resetStopwatch = () => {
         this.setState(this.initialState);
         clearInterval(this.stopwatchID);
@@ -54,11 +59,21 @@ class Stopwatch extends Component {
                     minute + " Minutes " +
                     second + " Seconds"}
                 </h1>
-                <button className="btn btn-primary" onClick={this.startStopwatch}>Start</button>
+                <StartStop timerStarted={this.state.timerStarted} startStopwatch={this.startStopwatch} pauseStopwatch={this.pauseStopwatch} />
                 <div className="divider-h"></div>
                 <button className="btn btn-secondary" onClick={this.resetStopwatch}>Reset</button>
             </div>
         );
+    }
+}
+
+const StartStop = props => {
+    const {timerStarted, startStopwatch, pauseStopwatch} = props;
+
+    if (timerStarted) {
+        return <button className="btn btn-primary" onClick={pauseStopwatch}>Pause</button>;
+    } else {
+        return <button className="btn btn-primary" onClick={startStopwatch}>Start</button>;
     }
 }
 
