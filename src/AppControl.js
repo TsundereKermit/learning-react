@@ -5,14 +5,6 @@ import TimerForm from './TimerForm';
 import Error from './Error';
 
 class AppControl extends Component {
-    
-    constructor(props) {
-        super(props);
-        this.state = {
-            element: this.props.element,
-        }
-    }
-
     render() {
         if (this.props.element === '') {
             return (

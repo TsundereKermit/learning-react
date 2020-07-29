@@ -1,12 +1,6 @@
 import React, {Component} from 'react';
 
-class Home extends Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {value: ''};
-    }
-    
+class Home extends Component {  
     render() {
         return (
             <h1>homepage, i guess.</h1>

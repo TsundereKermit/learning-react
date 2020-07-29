@@ -1,14 +1,6 @@
 import React, {Component} from 'react';
 
 class Error extends Component {
-
-    constructor(props) {
-        super(props); 
-        this.state = {
-            value: '',
-        }
-    }
-
     render() {
         if (this.props.reason === "") {
             return null;
