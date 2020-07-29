@@ -10,6 +10,10 @@ class Navbar extends Component {
         this.props.navSubmit('timer');
     }
 
+    stopwatchSubmit = () => {
+        this.props.navSubmit('stopwatch');
+    }
+
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-white">
@@ -22,6 +26,10 @@ class Navbar extends Component {
                     <li className="nav-item">
                         {/* eslint-disable-next-line */}
                         <a className="nav-link" href="#" onClick={this.navTimerSubmit}>Timer</a>
+                    </li>
+                    <li>
+                        {/* eslint-disable-next-line */}
+                        <a className="nav-link" href="#" onClick={this.stopwatchSubmit}>Stopwatch</a>
                     </li>
                 </ul>
                 <Clock />

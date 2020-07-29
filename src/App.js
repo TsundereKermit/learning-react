@@ -29,7 +29,7 @@ class App extends Component {
                 err_reason: "Due to special relativity, negative time is not accepted as of this moment.",
                 url: '',
             });
-        } else if (minute > 59 || second > 60) {
+        } else if (minute > 59 || second > 60 || hour%1 !== 0 || minute%1 !== 0 || second%1 !== 0) {
             this.setState({
                 hour: 0,
                 minute: 0,

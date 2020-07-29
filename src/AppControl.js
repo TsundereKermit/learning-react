@@ -3,6 +3,7 @@ import Home from './Home';
 import Timer from './Timer';
 import TimerForm from './TimerForm';
 import Error from './Error';
+import Stopwatch from './Stopwatch';
 
 class AppControl extends Component {
     render() {
@@ -18,6 +19,10 @@ class AppControl extends Component {
                     <TimerForm timerSubmit={this.props.timerSubmit} reset={this.props.reset} />
                 </div>
             );
+        } else if (this.props.element === 'stopwatch') {
+            return (
+                <Stopwatch />
+            )
         } else {
             return (null);
         }

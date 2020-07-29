@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 class Timer extends Component {
-
     initialState = {
         hour: 0,
         minute: 0,
@@ -18,7 +17,7 @@ class Timer extends Component {
 
         return (
             <h1 className="mb-3">
-                {hour + " Hours " + 
+                {hour + " Hours " +
                 minute + " Minutes " +
                 second + " Seconds"}
             </h1>
