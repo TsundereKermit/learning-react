@@ -4,6 +4,6 @@
 
 ### Now I'm ~~messing around~~ experimenting with React using their [official tutorial](https://reactjs.org/docs/hello-world.html)
 
-The working UI can be found [here](https://tsunderekermit.github.io/learning-react/), it's really ugly though :(
+The working UI can be found [here](https://tsunderekermit.github.io/learning-react/), it's really ~~ugly~~ minimalistic though :(
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
